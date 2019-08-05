@@ -1,0 +1,50 @@
+Package: rTASSEL
+Version: 0.9.8
+Date: 2018-12-21
+Title: R front-end for TASSEL
+Authors@R: c(
+    person(
+        given = "Brandon",
+        family = "Monier",
+        email = "brandon.monier@gmail.com",
+        role = c("aut")
+    ),
+    person(
+        given = "Ed",
+        family = "Buckler",
+        email = "esb33@cornell.edu",
+        role = c("aut", "cre")
+    ))
+Description:
+    The aim of rTASSEL is to provide an R front-end for the
+    Java program, TASSEL. TASSEL is a software package used to evaluate
+    trait associaitions, evolutionary patterns, and linkage disequilibrium.
+    Additionally, this software allows for a number of powerful statistical
+    approaches to association mapping such general and mixed linear modelling.
+License: GPL-3 | file LICENSE
+URL:
+    https://bitbucket.org/bucklerlab/rtassel/src/master/
+Imports:
+    dplyr,
+    GenomicRanges,
+    ggplot2,
+    IRanges,
+    knitr,
+    magrittr,
+    methods,
+    purrr,
+    rJava,
+    rlang,
+    S4Vectors,
+    stringr,
+    SummarizedExperiment,
+    tibble
+Suggests:
+    BiocStyle
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder:
+    knitr
+RoxygenNote: 6.1.1
+biocViews:
+    GenomeWideAssociation
